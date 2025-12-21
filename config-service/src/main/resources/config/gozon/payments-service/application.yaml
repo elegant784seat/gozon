@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    topics:
+      gozon:
+        orders:
+          v1: "gozon.orders.v1"
+        payments:
+          v1: "gozon.payments.v1"
+    consumer:
+      enable-auto-commit: true
+      auto-offset-reset: false

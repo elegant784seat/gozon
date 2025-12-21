@@ -1,12 +1,12 @@
 @namespace("com.hse.kafka.avro.event")
 protocol OrderEventProtocol {
     enum OrderStatusAvro{
-        PENDING, PAID, PAYMENT_FAILED, CANCELLED, DELIVERED
+        NEW, FINISHED, CANCELLED
     }
 
     record OrderCreatedEventAvro {
         long orderId;
-        OrderStatus status;
+        OrderStatusAvro status;
         int userId;
         double amount;
         @logicalType("timestamp-millis")
