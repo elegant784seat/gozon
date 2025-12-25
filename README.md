@@ -3,7 +3,7 @@
 GoZon — это микросервисная система, демонстрирующая надёжное взаимодействие между сервисами с использованием паттернов Outbox и Inbox через Apache Kafka.
 
 # Спецификация
-https://patrolling-the-mojave.github.io/gozon/
+https://elegant784seat.github.io/gozon/
 
 ## Архитектура
 
